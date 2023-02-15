@@ -65,7 +65,7 @@ img {
 	margin-left: 42px;
 	font-family: 'Poppins', sans-serif;
 	font-weight: 400;
-	border: 1px solid white;
+	border: 1px solid black;
 	padding: 9px 8px;
 	color: white;
 }
@@ -74,7 +74,7 @@ img {
 
 .bnr-part {
 	height: 791px;
-	background: url(images/images/mahesh_06.png) no-repeat;
+	background: url("images/images/mahesh_06.png") no-repeat;
 	background-size: cover;
 	background-position: center;
 }
@@ -108,7 +108,7 @@ padding-top: 73px;
 }
 .scl h3{
 	width: 51%;
-	font-size: 23.09px;
+	font-size: 23px;
 	margin-left: 65px;
 	padding-top: 7px;
 	font-family: 'Poppins', sans-serif;
@@ -138,6 +138,14 @@ padding-top: 73px;
 .scl button{
 	}
 	
+.ib{
+
+
+	
+	margin-right: 232px;
+}
+
+
 /*-----------------------------------------------------------------------*/
 
 
@@ -257,7 +265,7 @@ padding-top: 73px;
 	margin-top: 152px;
 }
 .sr h2 {
-	font-size: 15px;
+	
 	font-size: 23px;
 	font-family: 'Poppins', sans-serif;
 	text-align: center;
@@ -284,7 +292,7 @@ padding-top: 73px;
 	background-position: center;
 }
 .ftr {
-	width: 29;
+	
 	width: 19%;
 	float: left;
 	margin-left: 71px;
@@ -323,11 +331,13 @@ padding-top: 73px;
 	font-family: 'Poppins', sans-serif;
 	font-weight: 509;
 	margin-left: 2px;
-	background: black;
-	color: #fff;
-	border: 1px solid black;
-	padding: 12px 10px;
+	background: #000000;
+	border:none;
+	border-bottom: 2px solid #fff;
+
+opacity:0.5;
 	text-align: center;
+	
 }
 .ftr button { margin-left:34px;
 margin-top: 14px;
